@@ -1,0 +1,337 @@
+*{font-size:12px;font-family:'宋体'}
+.icon-add {
+    background-image: url(../images/icon-add.gif) !important; background-repeat: no-repeat;
+}
+.icon-delete {
+    background-image: url(../images/icon-delete.gif) !important; background-repeat: no-repeat;
+}
+.icon-edit {
+    background-image: url(../images/icon-edit.gif) !important; background-repeat: no-repeat;
+}
+.icon-search {
+    background-image: url(../images/icon-search.gif) !important; background-repeat: no-repeat;
+}
+.icon-print {
+    background-image: url(../images/icon-print.gif) !important; background-repeat: no-repeat;
+}
+.icon-save {
+    background-image: url(../images/icon-save.gif) !important; background-repeat: no-repeat;
+}
+.icon-save0 {
+    background-image: url(../images/icon-save0.gif) !important; background-repeat: no-repeat;
+}
+.icon-currency {
+    background-image: url(../images/icon-currency.gif) !important; background-repeat: no-repeat;
+}
+.icon-system-user {
+    background-image: url(../images/icon-system-user.gif) !important; background-repeat: no-repeat;
+}
+.icon-base-tag {
+    background-image: url(../images/icon-base-tag.gif) !important; background-repeat: no-repeat;
+}
+.icon-ok {
+    background-image: url(../images/icon-ok.gif) !important; background-repeat: no-repeat;
+}
+.icon-cancel {
+    background-image: url(../images/icon-cancel.gif) !important; background-repeat: no-repeat;
+}
+.icon-chart {
+    background-image: url(../images/icon-chart.gif) !important; background-repeat: no-repeat;
+}
+.icon-view {
+    background-image: url(../images/icon-view.gif) !important; background-repeat: no-repeat;
+}
+.icon-pass {
+    background-image: url(../images/icon-pass.gif) !important; background-repeat: no-repeat;
+}
+.icon-nopass {
+    background-image: url(../images/icon-nopass.gif) !important; background-repeat: no-repeat;
+}
+.icon-start {
+    background-image: url(../images/icon-start.gif) !important; background-repeat: no-repeat;
+}
+.icon-stop {
+    background-image: url(../images/icon-stop.gif) !important; background-repeat: no-repeat;
+}
+.icon-receives {
+    background-image: url(../images/icon-receives.gif) !important; background-repeat: no-repeat;
+}
+.icon-delivers {
+    background-image: url(../images/icon-delivers.gif) !important; background-repeat: no-repeat;
+}
+.icon-manage {
+    background-image: url(../images/icon-manage.gif) !important; background-repeat: no-repeat;
+}
+.icon-audit {
+    background-image: url(../images/icon_audit.gif) !important; background-repeat: no-repeat;
+}
+.icon-latent {
+    background-image: url(../images/icon-latent.gif) !important; background-repeat: no-repeat;
+}
+.icon-return {
+    background-image: url(../images/icon-return.gif) !important; background-repeat: no-repeat;
+}
+.icon-excel {
+    background-image: url(../images/icon-excel.gif) !important; background-repeat: no-repeat;
+}
+.icon-html-add {
+    background-image:url(../images/icon-html-add.gif) !important; background-repeat: no-repeat;
+}
+.icon-true {
+    background-image:url(../images/icon-true.gif) !important; background-repeat: no-repeat;
+}
+.icon-false {
+    background-image:url(../images/icon-false.gif) !important; background-repeat: no-repeat;
+}
+.icon-addressbook {
+    background-image:url(../images/icon-addressbook.gif) !important; background-repeat: no-repeat;
+}
+.icon-recv {
+    background-image:url(../images/icon-recv.gif) !important; background-repeat: no-repeat;
+}
+.icon-writeletter {
+    background-image:url(../images/icon-writeletter.gif) !important; background-repeat: no-repeat;
+}
+.icon-develop {
+    background-image:url(../images/icon-develop.gif) !important; background-repeat: no-repeat;
+}
+.icon-sms {
+    background-image:url(../images/icon-sms.gif) !important; background-repeat: no-repeat;
+}
+.icon-unit {
+    background-image:url(../images/icon-unit.gif) !important; background-repeat: no-repeat;
+}
+.icon-ath {
+    background-image:url(../images/icon_ath.gif) !important; background-repeat: no-repeat;
+}
+.icon-materialInfo{
+    background-image:url(../images/icon-materialInfo.gif) !important; background-repeat: no-repeat;
+}
+.icon-company{
+    background-image:url(../images/icon-company.gif) !important; background-repeat: no-repeat;
+}
+.icon-up-win {
+    background-image:url(../images/icon-up-win.png) !important; background-repeat: no-repeat;
+}
+.icon-down-win{
+    background-image:url(../images/icon-down-win.png) !important; background-repeat: no-repeat;
+}
+.icon-split-win{
+    background-image:url(../images/icon-split-win.png) !important; background-repeat: no-repeat;
+}
+.icon-quote{
+    background-image:url(../images/icon-quote.gif) !important; background-repeat: no-repeat;
+}
+.icon-close{
+     background-image:url(../images/icon-close.gif) !important; background-repeat: no-repeat;
+}
+.icon-publish{
+     background-image:url(../images/icon-publish.gif) !important; background-repeat: no-repeat;
+}
+.icon-unpublish{
+     background-image:url(../images/icon-unpublish.gif) !important; background-repeat: no-repeat;
+}
+.icon-lock{
+     background-image:url(../images/icon-lock.gif) !important; background-repeat: no-repeat;
+}
+.icon-cancel{
+     background-image:url(../images/icon-cancel.gif) !important; background-repeat: no-repeat;
+}
+.icon-chuizi{
+     background-image:url(../images/icon-chuizi.gif) !important; background-repeat: no-repeat;
+}
+.icon-upload{
+     background-image:url(../images/icon-upload.gif) !important; background-repeat: no-repeat;
+}
+.icon-toAccept{
+     background-image:url(../images/icon-toAccept.gif) !important; background-repeat: no-repeat;
+}
+.icon-toCancel{
+     background-image:url(../images/icon-toCancel.gif) !important; background-repeat: no-repeat;
+}
+.icon-toClose{
+     background-image:url(../images/icon-toClose.gif) !important; background-repeat: no-repeat;
+}
+.icon-toConfirm{
+     background-image:url(../images/icon-toConfirm.gif) !important; background-repeat: no-repeat;
+}
+.icon-toFirmHold{
+     background-image:url(../images/icon-toFirmHold.gif) !important; background-repeat: no-repeat;
+}
+.icon-toFirmReject{
+     background-image:url(../images/icon-toFirmReject.gif) !important; background-repeat: no-repeat;
+}
+.icon-toHold{
+     background-image:url(../images/icon-toHold.gif) !important; background-repeat: no-repeat;
+}
+.icon-toNoPass{
+     background-image:url(../images/icon-toNoPass.gif) !important; background-repeat: no-repeat;
+}
+.icon-toOpen{
+     background-image:url(../images/icon-toOpen.gif) !important; background-repeat: no-repeat;
+}
+.icon-toReject{
+     background-image:url(../images/icon-toReject.gif) !important; background-repeat: no-repeat;
+}
+.icon-toRelease{
+     background-image:url(../images/icon-toRelease.gif) !important; background-repeat: no-repeat;
+}
+.icon-unstate{
+     background-image:url(../images/icon-unstate.gif) !important; background-repeat: no-repeat;
+}
+.icon-toPass{
+     background-image:url(../images/icon-toPass.gif) !important; background-repeat: no-repeat;
+}
+.icon-billbbs{
+     background-image:url(../images/icon-billbbs.gif) !important; background-repeat: no-repeat;
+}
+
+/* 文件类型icon */
+.icon-3gp{
+     background-image:url(../images/files/3gp.gif) !important; background-repeat: no-repeat;
+}
+.icon-avi{
+     background-image:url(../images/files/avi.gif) !important; background-repeat: no-repeat;
+}
+.icon-bmp{
+     background-image:url(../images/files/bmp.gif) !important; background-repeat: no-repeat;
+}
+.icon-chm{
+     background-image:url(../images/files/chm.gif) !important; background-repeat: no-repeat;
+}
+.icon-dll{
+     background-image:url(../images/files/dll.gif) !important; background-repeat: no-repeat;
+}
+.icon-doc{
+     background-image:url(../images/files/doc.gif) !important; background-repeat: no-repeat;
+}
+.icon-docx{
+     background-image:url(../images/files/docx.gif) !important; background-repeat: no-repeat;
+}
+.icon-dwf{
+     background-image:url(../images/files/dwf.gif) !important; background-repeat: no-repeat;
+}
+.icon-exe{
+     background-image:url(../images/files/exe.gif) !important; background-repeat: no-repeat;
+}
+.icon-flv{
+     background-image:url(../images/files/flv.gif) !important; background-repeat: no-repeat;
+}
+.icon-gif{
+     background-image:url(../images/files/gif.gif) !important; background-repeat: no-repeat;
+}
+.icon-htm{
+     background-image:url(../images/files/htm.gif) !important; background-repeat: no-repeat;
+}
+.icon-jpg{
+     background-image:url(../images/files/jpg.gif) !important; background-repeat: no-repeat;
+}
+.icon-mdb{
+     background-image:url(../images/files/mdb.gif) !important; background-repeat: no-repeat;
+}
+.icon-mov{
+     background-image:url(../images/files/mov.gif) !important; background-repeat: no-repeat;
+}
+.icon-mp3{
+     background-image:url(../images/files/mp3.gif) !important; background-repeat: no-repeat;
+}
+.icon-mp4{
+     background-image:url(../images/files/mp4.gif) !important; background-repeat: no-repeat;
+}
+.icon-mpg{
+     background-image:url(../images/files/mpg.gif) !important; background-repeat: no-repeat;
+}
+.icon-pdf{
+     background-image:url(../images/files/pdf.gif) !important; background-repeat: no-repeat;
+}
+.icon-pps{
+     background-image:url(../images/files/pps.gif) !important; background-repeat: no-repeat;
+}
+.icon-ppt{
+     background-image:url(../images/files/ppt.gif) !important; background-repeat: no-repeat;
+}
+.icon-pptx{
+     background-image:url(../images/files/pptx.gif) !important; background-repeat: no-repeat;
+}
+.icon-rar{
+     background-image:url(../images/files/rar.gif) !important; background-repeat: no-repeat;
+}
+.icon-rtf{
+     background-image:url(../images/files/rtf.gif) !important; background-repeat: no-repeat;
+}
+.icon-swf{
+     background-image:url(../images/files/swf.gif) !important; background-repeat: no-repeat;
+}
+.icon-txt{
+     background-image:url(../images/files/txt.gif) !important; background-repeat: no-repeat;
+}
+.icon-unknown{
+     background-image:url(../images/files/unknown.gif) !important; background-repeat: no-repeat;
+}
+.icon-wav{
+     background-image:url(../images/files/wav.gif) !important; background-repeat: no-repeat;
+}
+.icon-wma{
+     background-image:url(../images/files/wma.gif) !important; background-repeat: no-repeat;
+}
+.icon-wmv{
+     background-image:url(../images/files/wmv.gif) !important; background-repeat: no-repeat;
+}
+.icon-xls{
+     background-image:url(../images/files/xls.gif) !important; background-repeat: no-repeat;
+}
+.icon-xlsx{
+     background-image:url(../images/files/xlsx.gif) !important; background-repeat: no-repeat;
+}
+.icon-xml{
+     background-image:url(../images/files/xml.gif) !important; background-repeat: no-repeat;
+}
+.icon-zip{
+     background-image:url(../images/files/zip.gif) !important; background-repeat: no-repeat;
+}
+
+/*--------------------------------------------非icon类---------------------------------------*/
+/*grid 单选模型*/
+.x-grid3-td-single-checker {
+    width:100%;
+    height:18px;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+.x-grid3-row .x-grid3-td-single-checker {}
+.x-grid3-row-selected .x-grid3-td-single-checker,.x-grid3-td-single-checker .x-grid3-td-single-checker {
+    background-image: url(../images/check_ok.gif);
+}
+/*rowspan grid合并行效果*/
+.rowspan-grid .x-grid3-body .x-grid3-row {
+    border:none;
+    cursor:default;
+    width:100%;
+}
+.rowspan-grid .x-grid3-header .x-grid3-cell{
+    /*border-left: 2px solid transparent;*//*ie6的transparent下显示黑色?*/
+    border-left: 2px solid #fff;
+}
+.rowspan-grid .x-grid3-body .x-grid3-row{
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+}
+.rowspan-grid .x-grid3-body .x-grid3-cell {
+    border: 1px solid #ccc;
+    border-top:none;
+    border-right:none;
+}
+.rowspan-grid .x-grid3-body .x-grid3-cell-first {
+    /*border-left: 1px solid transparent;*/
+    border-left: 1px solid #fff;
+}
+.rowspan-grid .x-grid3-body .x-grid3-cell-last .x-grid3-cell-inner{
+    padding-right: 10px;
+}
+.rowspan-grid .x-grid3-body .rowspan-unborder {
+    /*border-bottom:1px solid transparent;*/
+    border-bottom:1px solid #fff;
+}
+.rowspan-grid .x-grid3-body .rowspan {
+    border-bottom: 1px solid #ccc;
+}

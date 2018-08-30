@@ -1,0 +1,15 @@
+.q-lescombo-icon {
+	width:16px;
+	height:16px;
+	float:left;
+	background-position: -1px -1px ! important;
+	background-repeat:no-repeat ! important;
+}
+.q-lescombo-icon-checked {
+	background: transparent url(../../resources/images/default/menu/checked.gif);
+}
+.q-lescombo-icon-unchecked {
+	background: transparent url(../../resources/images/default/menu/unchecked.gif);
+}
+
+/* eof */

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table class="table">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>模型名称</th>
+        <th>key</th>
+        <th>版本</th>
+        <th>部署ID</th>
+        <th>创建时间</th>
+        <th>最后更新时间</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="data : ${models}">
+        <td th:text="${data.id}">LeaveBill:1:4</td>
+        <td>
+            <a th:href="@{/static/modeler.html(modelId=${data.id})}" class="font-blue" th:text="${data.name}">流程名称</a>
+        </td>
+        <td th:text="${data.key}">1</td>
+        <td th:text="${data.version}"></td>
+        <td th:text="${data.deploymentId}"></td>
+        <td th:text="${data.createTime}">
+            2018-02-25 17:28:35
+        </td>
+        <td th:text="${data.lastUpdateTime}">
+            2018-02-25 17:28:35
+        </td>
+        <td>
+            <a href="javascript:;" th:attrappend="objId=${data.id}" class="font-blue deployBtn">发布流程</a>&nbsp;&nbsp;
+            <a th:href="@{/crm/model/export/{modelId}(modelId=${data.id})}" class="font-blue">导出</a>&nbsp;&nbsp;
+            <a href="javascript:;" th:attrappend="objId=${data.id}" class="font-blue delBtn">删除</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,291 @@
+#loading-mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 20000;
+	background-color: white;
+}
+
+#loading {
+	position: absolute;
+	left: 45%;
+	top: 40%;
+	padding: 2px;
+	z-index: 20001;
+	height: auto;
+}
+
+#loading img {
+	margin-bottom: 5px;
+}
+
+#loading .loading-indicator {
+	background: white;
+	color: #555;
+	font: bold 13px tahoma, arial, helvetica;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	height: auto;
+}
+
+#container-body .loading-indicator {
+	font: bold 13px Helvetica, Arial, Tahoma, Verdana, sans-serif;
+	position: absolute;
+	top: 35%;
+	left: 43%;
+	color: #444;
+	background-image: url(../images/loading/large-loading.gif);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	padding: 10px 10px 10px 38px;
+	text-align: left;
+}
+
+.x-grid3-td-single-checker {
+	width: 100%;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.x-grid3-row-selected .x-grid3-td-single-checker,.x-grid3-td-single-checker .x-grid3-td-single-checker
+	{
+	background-image: url(../images/grid/check_ok.gif);
+}
+
+.msg .x-box-mc {
+	font-size: 12px;
+}
+
+#msg-div {
+	position: absolute;
+	top: 10px;
+	width: 250px;
+	z-index: 20000;
+}
+
+.x-item-readonly * {
+	cursor: default !important;
+}
+
+.x-item-readonly {
+	color: #999;
+}
+
+.ux-lovcombo-icon {
+	width: 16px;
+	height: 16px;
+	float: left;
+	background-position: -1px -1px !important;
+	background-repeat: no-repeat !important;
+}
+
+.ux-lovcombo-icon-checked {
+	background: transparent url(../images/form/checked.gif);
+}
+
+.ux-lovcombo-icon-unchecked {
+	background: transparent url(../images/form/unchecked.gif);
+}
+
+.icon-3gp {
+	background-image: url(../images/filetype/3gp.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-avi {
+	background-image: url(../images/filetype/avi.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-bmp {
+	background-image: url(../images/filetype/bmp.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-chm {
+	background-image: url(../images/filetype/chm.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-dll {
+	background-image: url(../images/filetype/dll.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-doc {
+	background-image: url(../images/filetype/doc.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-docx {
+	background-image: url(../images/filetype/docx.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-dwf {
+	background-image: url(../images/filetype/dwf.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-exe {
+	background-image: url(../images/filetype/exe.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-flv {
+	background-image: url(../images/filetype/flv.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-gif {
+	background-image: url(../images/filetype/gif.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-htm {
+	background-image: url(../images/filetype/htm.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-jpg {
+	background-image: url(../images/filetype/jpg.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-mdb {
+	background-image: url(../images/filetype/mdb.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-mov {
+	background-image: url(../images/filetype/mov.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-mp3 {
+	background-image: url(../images/filetype/mp3.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-mp4 {
+	background-image: url(../images/filetype/mp4.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-mpg {
+	background-image: url(../images/filetype/mpg.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-pdf {
+	background-image: url(../images/filetype/pdf.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-pps {
+	background-image: url(../images/filetype/pps.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-ppt {
+	background-image: url(../images/filetype/ppt.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-pptx {
+	background-image: url(../images/filetype/pptx.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-rar {
+	background-image: url(../images/filetype/rar.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-rtf {
+	background-image: url(../images/filetype/rtf.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-swf {
+	background-image: url(../images/filetype/swf.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-txt {
+	background-image: url(../images/filetype/txt.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-unknown {
+	background-image: url(../images/filetype/unknown.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-wav {
+	background-image: url(../images/filetype/wav.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-wma {
+	background-image: url(../images/filetype/wma.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-wmv {
+	background-image: url(../images/filetype/wmv.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-xls {
+	background-image: url(../images/filetype/xls.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-xlsx {
+	background-image: url(../images/filetype/xlsx.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-xml {
+	background-image: url(../images/filetype/xml.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-zip {
+	background-image: url(../images/filetype/zip.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-home {
+	background-image: url(../images/icons/icon-home.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-key {
+	background-image: url(../images/icons/icon-key.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-login-code {
+	background-image: url(../images/icons/icon-login-code.gif) !important;
+	background-repeat: no-repeat;
+}
+
+.icon-logout {
+	background-image: url(../images/icons/icon-logout.gif) !important;
+	background-repeat: no-repeat;
+}
+
+#extgrid column copy
+.x-selectable, .x-selectable * {        
+   user-select: text! important;                                     
+-o-user-select: text! important;  
+-moz-user-select: text! important;  
+-khtml-user-select: text! important;  
+-webkit-user-select: text! important;         
+} 
