@@ -1,0 +1,17 @@
+server:
+  port: 8810
+
+spring:
+  application:
+    name: doracloud-register-service
+#服务注册配置
+eureka:
+  server:
+    enable-self-preservation: false
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka

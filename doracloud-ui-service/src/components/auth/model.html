@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="model-head" th:include="include/common-head :: common-head(~{::title},~{::link},~{})">
+    <script th:inline="javascript" type="text/javascript" th:src="@{/static/flow-engine/js/content/model.js}"></script>
+    <style type="text/css">
+        table {
+            border-collapse: separate;
+            border-spacing: 10px;
+        }
+        a {
+            margin-right: 10px;
+        }
+        .template {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div style="text-align: right; margin-right: 10px">
+    <button id="upload">导入</button>
+    <button id="create">创建</button>
+</div>
+<table width="100%" class="need-border" cellpadding="1" cellspacing="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>KEY</th>
+        <th>Name</th>
+        <th>Version</th>
+        <th>创建时间</th>
+        <th>最后更新时间</th>
+        <th>元数据</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="table">
+    </tbody>
+</table>
+
+<nav th:replace="include/navbar :: nav-page"></nav>
+
+<div id="createModelTemplate" title="创建模型" class="template">
+    <form id="modelForm" action="" target="" method="post">
+        <table>
+            <tr>
+                <td>名称：</td>
+                <td><input id="name" name="name" type="text" /></td>
+            </tr>
+            <tr>
+                <td>KEY：</td>
+                <td><input id="key" name="key" type="text" /></td>
+            </tr>
+            <tr>
+                <td>描述：</td>
+                <td><textarea id="description" name="description" style="width: 300px; height: 50px;"></textarea></td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div id="dialog" title="上传BPMN文件">
+    <div id="head" align="center">
+        <button id="choseFile">选择上传文件</button>
+        <button id="uploadFile">上传</button>
+    </div>
+    <div id="content"></div>
+</div>
+
+</body>
+</html>
