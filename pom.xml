@@ -9,8 +9,8 @@
     <modules>
         <module>doracloud-config-repertories</module>
         <module>doracloud-discovery-service</module>
-        <module>dora-cloud-ui-service</module>
         <module>doracloud-ui-service</module>
+        <module>doraclloud-zuul-service</module>
     </modules>
     <packaging>pom</packaging>
 
