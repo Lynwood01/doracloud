@@ -1,0 +1,37 @@
+.span_10{
+	font-size: 22px;
+}
+.order-step{
+	width: 780px;
+	height: 30px;
+	margin: 40px 0 0 30px;
+	background: url(/static/images/steps.png) 0 0 no-repeat;
+}
+.order-step-inner{
+	width: 100%;
+	height: 100%;
+	background: url(/static/images/steps2.png) 0 0 no-repeat;
+}
+.steps{
+	margin-left: 10px;
+	margin-bottom: 30px;
+	width: 1010px;
+	height: 40px;
+}
+.steps>li{
+	float: left;
+	display: block;
+	margin-left: 10px;
+	width: 242px;
+}
+.gray{
+	color: #989898;
+}
+.fs12{
+	font-size: 12px;
+}
+.green{
+	border-color: #34b573;
+	color: #34b573;
+	background-color: #e3fcef;
+}

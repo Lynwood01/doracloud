@@ -1,0 +1,38 @@
+.error-box{
+  bottom: 0%;
+  vertical-align: middle;
+  display: table-cell;
+  position: absolute;
+  right:0px;
+	width: 724px;
+	height: 100%;
+}
+.error-info{
+	position: absolute;
+	top: 30%;
+  left: 20%;
+}
+.sorry{
+	position: absolute;
+	top: 15%;
+  left: 20%;
+	width: 265px;
+	height: 86px;
+	background: url(/static/images/error.png) 0 -155px no-repeat;
+}
+.sorry_500{
+	position: absolute;
+  top: 15%;
+  left: 20%;
+	width: 265px;
+	height: 72px;
+	background: url(/static/images/error.png) 0 0 no-repeat;
+}
+.sorry_404{
+	position: absolute;
+  top: 15%;
+  left: 20%;
+  width: 265px;
+  height: 72px;
+	background: url(/static/images/error.png) 0 -80px no-repeat;
+}

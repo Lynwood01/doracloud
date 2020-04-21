@@ -1,0 +1,105 @@
+.info-list .list-gps {
+    height: auto;
+    line-height: initial;
+    padding: 25px;
+}
+.reset-pw{
+	display: inline-block;
+	vertical-align: top;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+.w360{
+	width: 360px;
+}
+.success{
+	display: inline-block;
+	margin-left: 15px;
+	width: 18px;
+	height: 18px;
+	background: url(/static/images/s.jpg) 0 0 no-repeat;
+	vertical-align: -3px;
+}
+.error-ico{
+	display: inline-block;
+	margin-left: 15px;
+	width: 18px;
+	height: 18px;
+	background: url(/static/images/e.png) 0 0 no-repeat;
+	vertical-align: -3px;
+}
+.check-info{
+	margin-bottom: 30px;
+}
+.info-ico{
+	display: inline-block;
+	margin-right: 8px;
+	width: 16px;
+	height: 15px;
+	background: url(/static/images/info-ico.png) 0 0 no-repeat;
+	vertical-align: -2px;
+}
+.span_22{
+	color: #06a553;
+	font-size: 22px;
+}
+.distribut-title{
+	margin-bottom: 10px;
+}
+.table.t2 th{
+	background-color: #fff;
+}
+.gg-amount p{
+	display: inline-block;
+	margin-left: 20px;
+}
+.qr-btn{
+	display: inline-block;
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	border:1px solid #e6e6e6;
+	border-radius: 2px;
+}
+.qr-btn:hover{
+	border-color: #06a553;
+}
+.pf-sc{
+	margin: 160px auto;
+	width: 600px;
+	height: 170px;
+}
+.pf-sc img,.pf-sc span{
+	float: left;
+	font-size: 16px;
+}
+.pf-sc span{
+	margin-left: 70px;
+	line-height: 32px;
+}
+.my-pf{
+	color: #06a553;
+	text-decoration: none;
+	font-size: 16px;
+}
+.pf-btn{
+	display: inline-block;
+	margin:0 10px;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #f3f3f3;
+	border-radius: 4px;
+	border:1px solid #e5e5e5;
+}
+.pf2{
+	color: #34b573;
+	border-color: #34b573;
+	background-color: #e3fcef;
+}
+.g-btns{
+	float: left;
+    margin: 50px 0 0 90px;
+}

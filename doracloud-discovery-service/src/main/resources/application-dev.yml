@@ -1,0 +1,34 @@
+server:
+  port: 8812
+
+spring:
+  application:
+    name: doracloud-discovery-service
+  # 配置中心配置
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Lynwood01/document
+          username: admin
+          password: admin123
+
+#  security:
+#    user:
+#      name: admin
+#      password: admin123
+
+#服务注册配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8810/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+    prefer-ip-address: true
+    status-page-url-path: /hello
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql

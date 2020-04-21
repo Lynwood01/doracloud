@@ -1,45 +1,57 @@
 <template>
-  <div id="app" >
-      <auth-header></auth-header>
+  <div id="app">
+    <!-- 其他页 -->
+    <div v-if="$route.meta.keepAlive">
+      <!--<el-header>-->
+        <keep-alive>
+          <!-- 导航栏 -->
+          <nav-header></nav-header>
+        </keep-alive>
+     <!-- </el-header>-->
+        <div v-if="$route.meta.leftAlive">
+        <!--<el-aside>-->
+          <!-- 侧边栏 -->
+          <keep-alive>
+          <menu-left></menu-left>
+        </keep-alive>
+        <!--</el-aside>-->
+        </div>
+        <!--<el-main>-->
+          <!-- Body -->
           <router-view></router-view>
-      <auth-footer></auth-footer>
+        <!--</el-main>-->
+      <el-footer>
+        <keep-alive>
+          <!-- 底部 -->
+          <nav-footer></nav-footer>
+        </keep-alive>
+      </el-footer>
+    </div>
+
+    <!-- 登录页 -->
+    <router-view v-if="!$route.meta.keepAlive"></router-view>
   </div>
 </template>
 <script>
-  import AuthHeader from './views/layout/header/index.vue';
-  import AuthFooter from './views/layout/footer/index.vue';
-  export default {
-    components: {
-      AuthHeader,
-      AuthFooter
-    }
-  };
-</script>
+ // import "@/assets/css/common.css"
+ import"@/assets/css/data.css"
+ import"@/assets/css/new.css"
+ import NavHeader from '@/components/header/head'
+ import NavFooter from '@/components/footer/footer'
+ import MenuLeft from '@/components/common/left'
+ import NavBread from '@/components/common/bread'
+ import NavHead from '@/components/common/head'
+ import NavMenu from '@/components/common/menu'
 
-<style>
-/*#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  text-align: center;
-  width: auto;
-  height: 100%;
-  color: #2c3e50;
-  margin-top: 50px;
-}*/
-#app{
-	height: 100%;
-}
- .w {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .auth-contanier {
-    background-color: #f8f8f8;
-    position: relative;
-    min-height: 670px;
-    height: 100%;
-  }
-  .main {
-    height: 100%;
-    padding: 0 0;
-  }
-</style>
+ export default {
+   name:"App",
+   components:{
+     NavHeader,
+     NavHead,
+     NavMenu,
+     NavFooter,
+     MenuLeft,
+     NavBread
+   }
+ }
+</script>

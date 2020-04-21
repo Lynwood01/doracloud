@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>vue-resource课程</title>
+  <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+  <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="node_modules/vue/dist/vue.min.js"></script>
+  <script src="node_modules/vue-resource/dist/vue-resource.min.js"></script>
+</head>
+<body>
+<div id="app" class="container">
+  <h1>vue-resource课程学习</h1>
+  <a href="javascript:;" class="btn btn-primary" @click="get">发送GET请求</a>
+  <a href="javascript:;" class="btn btn-primary" v-on:click="post">发送POST请求</a>
+  <a href="javascript:;" class="btn btn-primary" @click="jsonp">发送JSONP请求</a>
+  <a href="javascript:;" class="btn btn-primary" @click="http">发送http请求</a>
+  <div>
+    <span>{{msg}}</span>
+  </div>
+</div>
+
+<script>
+  new Vue({
+    el:"#app",
+    data:{
+      msg:''
+    },
+    mounted(){
+      Vue.http.interceptors.push(function (request,next) {
+        console.log("request process")
+        next(response=>{
+          console.log("response process")
+          return response;
+        })
+      });
+    },
+    http:{
+      // root:"",
+    },
+    methods:{
+      get(){
+        this.$http.get("package.json",{
+          params:{
+            userId:'S10001'
+          },
+          headers: {
+            accee_token:"0232j3ngelgre"
+          }
+        }).then(res=>{
+          this.msg=res.data;
+        },error=>{
+          this.msg=error;
+        });
+      },
+      post(){
+        this.$http.post("package.json",{
+          userId:"C89012",
+          token:"GUEBRWERI0273"
+        },{
+          headers:{
+            accee_token:"0232j3ngelgre"
+          }
+        }).then(res=>{
+          this.msg=res.data;
+        },error=>{
+          this.msg=error;
+        });
+      },
+      jsonp(){
+        this.$http.jsonp("hhtp://www.baidu.com").then(res=>{
+          this.msg=res.data;
+        },error=>{
+          this.msg=error;
+        })
+      },
+      http(){
+        this.$http({
+          url:"package.json",
+          method:"post",
+          params: {
+            userId:"C89012",
+            token:"GUEBRWERI0273"
+          },
+          headers:{ accee_token:"0232j3ngelgre"},
+          before:function () {
+            console.log("调用之前执行的方法")
+          }
+        }).then(res=>{
+          this.msg=res.data;
+        });
+      }
+    }
+  })
+
+</script>
+</body>
+</html>

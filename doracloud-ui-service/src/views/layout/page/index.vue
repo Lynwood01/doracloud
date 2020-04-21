@@ -10,11 +10,11 @@
 </template>
 
 <script>
-	export default {
-		components: {
-			PageFoot
-		}
-	}
+	// export default {
+	// 	components: {
+	// 		PageFoot
+	// 	}
+	// }
 </script>
 
 <style>

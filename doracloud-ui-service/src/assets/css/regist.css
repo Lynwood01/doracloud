@@ -1,0 +1,118 @@
+.rg-main{
+	margin:0 auto;
+	width:775px;
+}
+.rg-title{
+	height:45px;
+	line-height: 45px;
+	color:#06a553;
+}
+.rg-form{
+	padding:25px 0;
+	width:100%;
+	border-top:2px solid #06a553;
+	background-color: #fff;
+}
+.rg-form .form-row{
+	margin-bottom:8px;
+}
+.rg-form .form-row label{
+	display: inline-block;
+	width:120px;
+	height:40px;
+	line-height: 40px;
+	text-align: right;
+	color: #000;
+}
+.rg-form .form-row label span{
+	margin-right:5px;
+	color:#ff6300;
+	vertical-align: -2px;
+}
+.rg-form .form-row .large{
+	width:628px;
+}
+.textarea{
+	width:628px;
+	height:85px;
+	text-indent:1em;
+	vertical-align: top;
+	outline: none;
+}
+.data-info{
+	display: block;
+    margin: 10px 0 12px 122px;
+	color:#2bac63;
+	text-decoration: underline;
+}
+.yx-btn{
+	margin:20px 0 0 120px;
+}
+.refresh-img{
+	margin:0 0 0 10px;
+	vertical-align: -15px;
+}
+.refresh {
+    display:inline-block;
+    width: 50px;
+    height:40px;
+    line-height: 18px;
+    margin-left: 4px;
+    margin-right: 10px;
+    font-size: 13px;
+    text-align: right;
+    vertical-align: middle;
+}
+.refresh-code{
+	color:#06a553;
+}
+.refresh-code:hover{
+	text-decoration: underline;
+}
+.rg-tip{
+	color:#999;
+}
+button.disabled{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+.data-info-box{
+	visibility:hidden;
+}
+.data-info-box .bg{
+	position: fixed;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 19891014;
+    background-color: #000;
+    opacity: 0.3;
+}
+.data-list{
+	position:fixed; 
+	top:200px;
+	left:200px; 
+	width:606px;
+	z-index: 19891015;
+}
+.list-cont .table{
+	background-color: #fff;
+}
+.list-cont{
+	width: 100%;
+}
+.data-close{
+	display: block;
+	margin:20px auto 0 auto;
+	width:77px;
+	height:30px;
+	background: url("/static/images/data-close.png") 0 0 no-repeat;
+}
+.select{margin-left:0;}
+.sod_select{height:40px;line-height: 40px;border-color:#e5e5e5;outline:none;}
+.main-succ{ width:1100px; height:440px; margin:75px auto 0;position: relative; display:block; clear:both;}
+.img-succ{ background:url(/static/images/success.jpg) no-repeat; display:block; width:836px; height:389px; margin-left:110px; }
+.main-succ p{ display:block;margin-left:520px; margin-top:-60px; height:40px; width:360px; line-height:40px; font-size:20px;}
+.main-succ a{ text-decoration:underline; padding-left:5px;font-size:15px;color: blue;}
+.main-succ em{font-size:20px;}
